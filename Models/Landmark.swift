@@ -9,7 +9,7 @@
 import SwiftUI
 import CoreLocation
 
-struct Landmark: Hashable, Codable {
+struct Landmark: Hashable, Codable, Identifiable {
 	var id: Int
 	var name: String
 	fileprivate var imageName: String
@@ -19,7 +19,7 @@ struct Landmark: Hashable, Codable {
 	var category: Category
 	
 	var locationCoordinate: CLLocationCoordinate2D {
-		CLLocationCoordinate2D(latitude: coordinates.latitued, longitude: coordinates.longitude)
+		CLLocationCoordinate2D(latitude: coordinates.latitude, longitude: coordinates.longitude)
 	}
 	
 	func image(forSize size: Int) -> Image {
@@ -34,6 +34,6 @@ struct Landmark: Hashable, Codable {
 }
 
 struct Coordinates: Hashable, Codable {
-	var latitued: Double
+	var latitude: Double
 	var longitude: Double
 }
