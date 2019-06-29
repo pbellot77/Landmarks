@@ -9,15 +9,19 @@
 import SwiftUI
 
 struct RotatedBadgeSymbol : View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
-    }
+	let angle: Angle
+	
+	var body: some View {
+		BadgeSymbol()
+			.padding(-60)
+			.rotationEffect(angle, anchor: .bottom)
+	}
 }
 
 #if DEBUG
 struct RotatedBadgeSymbol_Previews : PreviewProvider {
-    static var previews: some View {
-        RotatedBadgeSymbol()
-    }
+	static var previews: some View {
+		RotatedBadgeSymbol(angle: .init(degrees: 5))
+	}
 }
 #endif
