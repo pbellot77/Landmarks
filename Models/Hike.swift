@@ -2,7 +2,7 @@
 //  Hike.swift
 //  Landmarks
 //
-//  Created by Patrick Bellot on 6/29/19.
+//  Created by Patrick Bellot on 6/30/19.
 //  Copyright © 2019 TwoTwenty8 LLC. All rights reserved.
 //
 
@@ -24,6 +24,7 @@ struct Hike: Codable, Hashable, Identifiable {
 	
 	struct Observation: Codable, Hashable {
 		var distanceFromStart: Double
+		
 		var elevation: Range<Double>
 		var pace: Range<Double>
 		var heartRate: Range<Double>

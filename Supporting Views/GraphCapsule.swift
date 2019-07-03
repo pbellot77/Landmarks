@@ -2,7 +2,7 @@
 //  GraphCapsule.swift
 //  Landmarks
 //
-//  Created by Patrick Bellot on 6/29/19.
+//  Created by Patrick Bellot on 6/30/19.
 //  Copyright © 2019 TwoTwenty8 LLC. All rights reserved.
 //
 
@@ -32,8 +32,8 @@ struct GraphCapsule : View {
 
 #if DEBUG
 struct GraphCapsule_Previews : PreviewProvider {
-    static var previews: some View {
-        GraphCapsule(index: 0, height: 150, range: 10..<50, overallRange: 0..<100)
-    }
+	static var previews: some View {
+		GraphCapsule(index: 0, height: 150, range: 10..<50, overallRange: 0..<100)
+	}
 }
 #endif
