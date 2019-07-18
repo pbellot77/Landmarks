@@ -16,15 +16,44 @@ struct CategoryHome : View {
 		)
 	}
 	
+	var featured: [Landmark] {
+		landmarkData.filter { $0.isFeatured }
+	}
+	
 	var body: some View {
 		NavigationView {
 			List {
-				ForEach(categories.keys.sorted().identified(by: \.self)) { key in
-						CategoryRow(categoryName: key, items: self.categories[key]!)
-					}
+				FeaturedLandmarks(landmarks: featured)
+					.scaledToFit()
+					.frame(height: 200)
+					.clipped()
+					.listRowInsets(EdgeInsets())
+				ForEach(categories.keys.sorted()	.identified(by: \.self)) { key in
+					CategoryRow(categoryName: key, items: self.categories[key]!)
+				}
+				.listRowInsets(EdgeInsets())
+				
+				NavigationLink(destination: LandmarkList()) {
+					Text("See All")
+				}
 			}
 			.navigationBarTitle(Text("Featured"))
+			.navigationBarItems(trailing:
+				PresentationLink(destination: Text("User Profile")) {
+					Image(systemName: "person.crop.circle")
+						.imageScale(.large)
+						.accessibility(label: Text("User Profile"))
+						.padding()
+				}
+			)
 		}
+	}
+}
+
+struct FeaturedLandmarks: View {
+	var landmarks: [Landmark]
+	var body: some View {
+		landmarks[0].image(forSize: 250).resizable()
 	}
 }
 

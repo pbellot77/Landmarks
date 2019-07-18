@@ -31,6 +31,7 @@
 		BA41333A22A9C585000B13FD /* rainbowlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA41332E22A9C585000B13FD /* rainbowlake.jpg */; };
 		BA41333C22A9C683000B13FD /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA41333B22A9C683000B13FD /* Data.swift */; };
 		BA41333F22ADD7A2000B13FD /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA41333E22ADD7A2000B13FD /* LandmarkRow.swift */; };
+		BA4CDA1022E107CF00D47A11 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4CDA0F22E107CF00D47A11 /* Profile.swift */; };
 		BA52937422D3F52E00E7D86E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA52937322D3F52E00E7D86E /* Home.swift */; };
 		BA52937622D3F72C00E7D86E /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA52937522D3F72C00E7D86E /* CategoryRow.swift */; };
 		BA86FBAB22C198200025BBD0 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA86FBAA22C198200025BBD0 /* HexagonParameters.swift */; };
@@ -98,6 +99,7 @@
 		BA41332E22A9C585000B13FD /* rainbowlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbowlake.jpg; sourceTree = "<group>"; };
 		BA41333B22A9C683000B13FD /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		BA41333E22ADD7A2000B13FD /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		BA4CDA0F22E107CF00D47A11 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Profile.swift; path = ../../../../../System/Volumes/Data/Users/patrickbellot/Desktop/Landmarks/Models/Profile.swift; sourceTree = "<group>"; };
 		BA52937322D3F52E00E7D86E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		BA52937522D3F72C00E7D86E /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		BA86FBAA22C198200025BBD0 /* HexagonParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
@@ -240,6 +242,7 @@
 				BA41333B22A9C683000B13FD /* Data.swift */,
 				BA8C1D2222BD78BB005D9662 /* UserData.swift */,
 				BAEDF60222C92744004C9339 /* Hike.swift */,
+				BA4CDA0F22E107CF00D47A11 /* Profile.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -407,6 +410,7 @@
 				BA52937622D3F72C00E7D86E /* CategoryRow.swift in Sources */,
 				BA41333C22A9C683000B13FD /* Data.swift in Sources */,
 				BAEDF60722C929A9004C9339 /* HikeGraph.swift in Sources */,
+				BA4CDA1022E107CF00D47A11 /* Profile.swift in Sources */,
 				BA86FBAD22C198480025BBD0 /* Badge.swift in Sources */,
 				BA01B0E822A6983300B1FFBB /* AppDelegate.swift in Sources */,
 				BAEDF60522C9286D004C9339 /* GraphCapsule.swift in Sources */,
