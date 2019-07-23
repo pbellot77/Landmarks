@@ -9,6 +9,17 @@
 import SwiftUI
 
 struct CategoryHome : View {
+	@State var showingProfile = false
+
+	var profileButton: some View {
+		Button(action: { self.showingProfile.toggle() }) {
+			Image(systemName: "person.crop.circle")
+				.imageScale(.large)
+				.accessibility(label: Text("User Profile"))
+				.padding()
+		}
+	}
+	
 	var categories: [String: [Landmark]] {
 		.init(
 			grouping: landmarkData,
@@ -28,7 +39,7 @@ struct CategoryHome : View {
 					.frame(height: 200)
 					.clipped()
 					.listRowInsets(EdgeInsets())
-				ForEach(categories.keys.sorted()	.identified(by: \.self)) { key in
+				ForEach(categories.keys.sorted(), id: \.self) { key in
 					CategoryRow(categoryName: key, items: self.categories[key]!)
 				}
 				.listRowInsets(EdgeInsets())
@@ -38,14 +49,10 @@ struct CategoryHome : View {
 				}
 			}
 			.navigationBarTitle(Text("Featured"))
-			.navigationBarItems(trailing:
-				PresentationLink(destination: Text("User Profile")) {
-					Image(systemName: "person.crop.circle")
-						.imageScale(.large)
-						.accessibility(label: Text("User Profile"))
-						.padding()
-				}
-			)
+			.navigationBarItems(trailing: profileButton)
+			.sheet(isPresented: $showingProfile){
+				ProfileHost()
+			}
 		}
 	}
 }

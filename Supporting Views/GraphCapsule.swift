@@ -23,7 +23,7 @@ struct GraphCapsule : View {
 	}
 	
 	var animation: Animation {
-		Animation.spring(initialVelocity: 5)
+		Animation.spring()
 			.speed(2)
 			.delay(0.03 * Double(index))
 	}

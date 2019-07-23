@@ -46,7 +46,7 @@ struct CategoryItem: View {
 				.renderingMode(.original)
 				.cornerRadius(5)
 			Text(landmark.name)
-				.color(.primary)
+				.foregroundColor(.primary)
 				.font(.caption)
 		}
 		.padding(.leading, 15)
