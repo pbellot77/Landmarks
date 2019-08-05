@@ -24,8 +24,13 @@ struct Landmark: Hashable, Codable, Identifiable {
 		CLLocationCoordinate2D(latitude: coordinates.latitude, longitude: coordinates.longitude)
 	}
 	
-	func image(forSize size: Int) -> Image {
-		ImageStore.shared.image(name: imageName, size: size)
+    var featuredImage: Image? {
+        guard isFeatured else { return nil }
+        
+        return Image(
+            ImageStore.loadImage(name: "\(imageName)_feature"),
+            scale: 2,
+            label: Text(verbatim: name))
 	}
 	
 	enum Category: String, CaseIterable, Codable, Hashable {
@@ -34,6 +39,12 @@ struct Landmark: Hashable, Codable, Identifiable {
 		case river = "Rivers"
 		case mountains = "Mountains"
 	}
+}
+
+extension Landmark {
+  var image: Image {
+    ImageStore.shared.image(name: imageName)
+  }
 }
 
 struct Coordinates: Hashable, Codable {

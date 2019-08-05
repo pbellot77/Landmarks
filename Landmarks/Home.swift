@@ -9,19 +9,8 @@
 import SwiftUI
 
 struct CategoryHome : View {
-	@State var showingProfile = false
-
-	var profileButton: some View {
-		Button(action: { self.showingProfile.toggle() }) {
-			Image(systemName: "person.crop.circle")
-				.imageScale(.large)
-				.accessibility(label: Text("User Profile"))
-				.padding()
-		}
-	}
-	
 	var categories: [String: [Landmark]] {
-		.init(
+		Dictionary(
 			grouping: landmarkData,
 			by: { $0.category.rawValue }
 		)
@@ -30,15 +19,27 @@ struct CategoryHome : View {
 	var featured: [Landmark] {
 		landmarkData.filter { $0.isFeatured }
 	}
+  
+  @State var showingProfile = false
+  
+  var profileButton: some View {
+    Button(action: { self.showingProfile.toggle() }) {
+      Image(systemName: "person.crop.circle")
+        .imageScale(.large)
+        .accessibility(label: Text("User Profile"))
+        .padding()
+    }
+  }
 	
 	var body: some View {
 		NavigationView {
 			List {
 				FeaturedLandmarks(landmarks: featured)
-					.scaledToFit()
-					.frame(height: 200)
+					.scaledToFill()
+          .frame(height: 200)
 					.clipped()
 					.listRowInsets(EdgeInsets())
+        
 				ForEach(categories.keys.sorted(), id: \.self) { key in
 					CategoryRow(categoryName: key, items: self.categories[key]!)
 				}
@@ -60,7 +61,7 @@ struct CategoryHome : View {
 struct FeaturedLandmarks: View {
 	var landmarks: [Landmark]
 	var body: some View {
-		landmarks[0].image(forSize: 250).resizable()
+    landmarks[0].image.resizable()
 	}
 }
 

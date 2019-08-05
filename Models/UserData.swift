@@ -9,17 +9,7 @@
 import SwiftUI
 import Combine
 
-final class UserData: BindableObject {
-	let willChange = PassthroughSubject<UserData, Never>()
-	
-	var showFavoritesOnly = false {
-		didSet {
-			willChange.send(self)
-		}
-	}
-	var landmarks = landmarkData {
-		didSet {
-			willChange.send(self)
-		}
-	}
+final class UserData: ObservableObject {
+  @Published var showFavoritesOnly = false
+  @Published var landmarks = landmarkData
 }
