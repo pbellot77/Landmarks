@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>3E6C651F-2D63-45C5-A6EF-1DBC1E165CF4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3E6C651F-2D63-45C5-A6EF-1DBC1E165CF4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Landmarks project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Landmarks</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Landmarks</string>
+			<key>timeStartedRecording</key>
+			<real>586729817.20184505</real>
+			<key>timeStoppedRecording</key>
+			<real>586729822.84198403</real>
+			<key>title</key>
+			<string>Build Landmarks</string>
+			<key>uniqueIdentifier</key>
+			<string>3E6C651F-2D63-45C5-A6EF-1DBC1E165CF4</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
