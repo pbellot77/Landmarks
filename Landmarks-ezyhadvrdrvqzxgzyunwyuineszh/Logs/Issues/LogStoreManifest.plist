@@ -6,7 +6,63 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>5DCC09BD-30B8-4E03-A737-39C8972F183D</key>
+		<key>3CC20B2C-7DB2-4D14-9B89-B6F4955A7855</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.bundle</string>
+			<key>fileName</key>
+			<string>3CC20B2C-7DB2-4D14-9B89-B6F4955A7855.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>signature</key>
+			<string>LandmarksUITests-ezyhadvrdrvqzxgzyunwyuineszh</string>
+			<key>timeStartedRecording</key>
+			<real>586792470.112486</real>
+			<key>timeStoppedRecording</key>
+			<real>586792470.11563003</real>
+			<key>title</key>
+			<string>Build target LandmarksUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>3CC20B2C-7DB2-4D14-9B89-B6F4955A7855</string>
+		</dict>
+		<key>83D21287-D912-4156-B173-E64CEF137749</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.bundle</string>
+			<key>fileName</key>
+			<string>83D21287-D912-4156-B173-E64CEF137749.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>signature</key>
+			<string>LandmarksTests-ezyhadvrdrvqzxgzyunwyuineszh</string>
+			<key>timeStartedRecording</key>
+			<real>586792470.113747</real>
+			<key>timeStoppedRecording</key>
+			<real>586792470.11576998</real>
+			<key>title</key>
+			<string>Build target LandmarksTests</string>
+			<key>uniqueIdentifier</key>
+			<string>83D21287-D912-4156-B173-E64CEF137749</string>
+		</dict>
+		<key>F69F0778-DD29-49A8-B9B5-D2427367429A</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,7 +71,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>5DCC09BD-30B8-4E03-A737-39C8972F183D.xcactivitylog</string>
+			<string>F69F0778-DD29-49A8-B9B5-D2427367429A.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -26,13 +82,13 @@
 			<key>signature</key>
 			<string>Landmarks-ezyhadvrdrvqzxgzyunwyuineszh</string>
 			<key>timeStartedRecording</key>
-			<real>586729817.39140201</real>
+			<real>586793057.95501101</real>
 			<key>timeStoppedRecording</key>
-			<real>586729822.79837096</real>
+			<real>586793061.65111601</real>
 			<key>title</key>
 			<string>Build target Landmarks</string>
 			<key>uniqueIdentifier</key>
-			<string>5DCC09BD-30B8-4E03-A737-39C8972F183D</string>
+			<string>F69F0778-DD29-49A8-B9B5-D2427367429A</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>
