@@ -6,8 +6,8 @@
 //  Copyright © 2019 TwoTwenty8 LLC. All rights reserved.
 //
 
-import SwiftUI
 import Combine
+import SwiftUI
 
 final class UserData: ObservableObject {
   @Published var showFavoritesOnly = false
