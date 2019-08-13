@@ -34,6 +34,34 @@
 			<key>uniqueIdentifier</key>
 			<string>3CC20B2C-7DB2-4D14-9B89-B6F4955A7855</string>
 		</dict>
+		<key>80AFA9E7-1380-423D-8B56-71DB35F1FC46</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>80AFA9E7-1380-423D-8B56-71DB35F1FC46.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Landmarks-ezyhadvrdrvqzxgzyunwyuineszh</string>
+			<key>timeStartedRecording</key>
+			<real>587421202.35569096</real>
+			<key>timeStoppedRecording</key>
+			<real>587421207.02758396</real>
+			<key>title</key>
+			<string>Build target Landmarks</string>
+			<key>uniqueIdentifier</key>
+			<string>80AFA9E7-1380-423D-8B56-71DB35F1FC46</string>
+		</dict>
 		<key>83D21287-D912-4156-B173-E64CEF137749</key>
 		<dict>
 			<key>className</key>
@@ -61,34 +89,6 @@
 			<string>Build target LandmarksTests</string>
 			<key>uniqueIdentifier</key>
 			<string>83D21287-D912-4156-B173-E64CEF137749</string>
-		</dict>
-		<key>F69F0778-DD29-49A8-B9B5-D2427367429A</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
-			<key>fileName</key>
-			<string>F69F0778-DD29-49A8-B9B5-D2427367429A.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>Landmarks-ezyhadvrdrvqzxgzyunwyuineszh</string>
-			<key>timeStartedRecording</key>
-			<real>586793057.95501101</real>
-			<key>timeStoppedRecording</key>
-			<real>586793061.65111601</real>
-			<key>title</key>
-			<string>Build target Landmarks</string>
-			<key>uniqueIdentifier</key>
-			<string>F69F0778-DD29-49A8-B9B5-D2427367429A</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

@@ -1,9 +1,11 @@
-/Users/patrickbellot/Desktop/Landmarks/Landmarks/CategoryRow.swift
+/Users/patrickbellot/Desktop/Landmarks/Home/CategoryRow.swift
 /Users/patrickbellot/Desktop/Landmarks/Models/Data.swift
 /Users/patrickbellot/Desktop/Landmarks/Hike/HikeGraph.swift
 /System/Volumes/Data/Users/patrickbellot/Desktop/Landmarks/Profile/ProfileHost.swift
+/Users/patrickbellot/Desktop/Landmarks/Supporting\ Views/FeatureCard.swift
 /System/Volumes/Data/Users/patrickbellot/Desktop/Landmarks/Models/Profile.swift
 /Users/patrickbellot/Desktop/Landmarks/Supporting\ Views/Badge.swift
+/Users/patrickbellot/Desktop/Landmarks/Home/PageView.swift
 /Users/patrickbellot/Desktop/Landmarks/Landmarks/AppDelegate.swift
 /Users/patrickbellot/Desktop/Landmarks/Hike/GraphCapsule.swift
 /Users/patrickbellot/Desktop/Landmarks/Supporting\ Views/CircleImage.swift
@@ -13,15 +15,17 @@
 /Users/patrickbellot/Desktop/Landmarks/Models/Hike.swift
 /Users/patrickbellot/Desktop/Landmarks/Landmark\ Views/LandmarkList.swift
 /Users/patrickbellot/Desktop/Landmarks/Supporting\ Views/BadgeSymbol.swift
+/Users/patrickbellot/Desktop/Landmarks/Home/PageViewController.swift
 /Users/patrickbellot/Desktop/Landmarks/Supporting\ Views/RotatedBadgeSymbol.swift
 /System/Volumes/Data/Users/patrickbellot/Desktop/Landmarks/Supporting\ Views/HikeBadge.swift
-/Users/patrickbellot/Desktop/Landmarks/Landmarks/Home.swift
+/Users/patrickbellot/Desktop/Landmarks/Home/Home.swift
 /Users/patrickbellot/Desktop/Landmarks/Hike/HikeView.swift
 /Users/patrickbellot/Desktop/Landmarks/Landmarks/SceneDelegate.swift
 /Users/patrickbellot/Desktop/Landmarks/Supporting\ Views/BadgeBackground.swift
 /Users/patrickbellot/Desktop/Landmarks/Landmark\ Views/LandmarkDetail.swift
 /Users/patrickbellot/Desktop/Landmarks/Landmark\ Views/LandmarkRow.swift
 /System/Volumes/Data/Users/patrickbellot/Desktop/Landmarks/Profile/ProfileSummary.swift
+/Users/patrickbellot/Desktop/Landmarks/Home/PageControl.swift
 /Users/patrickbellot/Desktop/Landmarks/Models/UserData.swift
 /Users/patrickbellot/Desktop/Landmarks/Models/Landmark.swift
 /System/Volumes/Data/Users/patrickbellot/Desktop/Landmarks/Profile/ProfileEditor.swift

@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>4003C35A-94B4-4F14-9835-10FFE7DF6EF9</key>
+		<key>EC15E1A6-E546-4F0B-9B2F-3CF4EAA07427</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>4003C35A-94B4-4F14-9835-10FFE7DF6EF9.xcactivitylog</string>
+			<string>EC15E1A6-E546-4F0B-9B2F-3CF4EAA07427.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,217 +32,13 @@
 			<key>signature</key>
 			<string>Preview Landmarks</string>
 			<key>timeStartedRecording</key>
-			<real>586792907.09057403</real>
+			<real>587421202.28038204</real>
 			<key>timeStoppedRecording</key>
-			<real>586792908.04929101</real>
+			<real>587421207.05794001</real>
 			<key>title</key>
 			<string>Preview Landmarks</string>
 			<key>uniqueIdentifier</key>
-			<string>4003C35A-94B4-4F14-9835-10FFE7DF6EF9</string>
-		</dict>
-		<key>68D8931B-995D-4A8D-BA61-7507CBDEB049</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>68D8931B-995D-4A8D-BA61-7507CBDEB049.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Landmarks project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Landmarks</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Landmarks</string>
-			<key>timeStartedRecording</key>
-			<real>586793012.55728304</real>
-			<key>timeStoppedRecording</key>
-			<real>586793013.51289499</real>
-			<key>title</key>
-			<string>Build Landmarks</string>
-			<key>uniqueIdentifier</key>
-			<string>68D8931B-995D-4A8D-BA61-7507CBDEB049</string>
-		</dict>
-		<key>6D908B47-BB23-49AD-8852-C8A712885A81</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>6D908B47-BB23-49AD-8852-C8A712885A81.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Landmarks project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Landmarks</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Preview Landmarks</string>
-			<key>timeStartedRecording</key>
-			<real>586793057.91066897</real>
-			<key>timeStoppedRecording</key>
-			<real>586793061.67777801</real>
-			<key>title</key>
-			<string>Preview Landmarks</string>
-			<key>uniqueIdentifier</key>
-			<string>6D908B47-BB23-49AD-8852-C8A712885A81</string>
-		</dict>
-		<key>74AD78E2-CC70-400B-BE69-B57C57F10193</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>74AD78E2-CC70-400B-BE69-B57C57F10193.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Landmarks project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Landmarks</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Clean Landmarks</string>
-			<key>timeStartedRecording</key>
-			<real>586793051.57656705</real>
-			<key>timeStoppedRecording</key>
-			<real>586793051.68143904</real>
-			<key>title</key>
-			<string>Clean Landmarks</string>
-			<key>uniqueIdentifier</key>
-			<string>74AD78E2-CC70-400B-BE69-B57C57F10193</string>
-		</dict>
-		<key>86802A74-4963-4412-B004-66B33F571076</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>86802A74-4963-4412-B004-66B33F571076.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Landmarks project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Landmarks</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Preview Landmarks</string>
-			<key>timeStartedRecording</key>
-			<real>586793018.33785498</real>
-			<key>timeStoppedRecording</key>
-			<real>586793019.23881602</real>
-			<key>title</key>
-			<string>Preview Landmarks</string>
-			<key>uniqueIdentifier</key>
-			<string>86802A74-4963-4412-B004-66B33F571076</string>
-		</dict>
-		<key>897A1E4F-6C9C-4C1B-91EA-6CC2E274C2C3</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>897A1E4F-6C9C-4C1B-91EA-6CC2E274C2C3.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Landmarks project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Landmarks</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Preview Landmarks</string>
-			<key>timeStartedRecording</key>
-			<real>586792955.56831503</real>
-			<key>timeStoppedRecording</key>
-			<real>586792958.11088204</real>
-			<key>title</key>
-			<string>Preview Landmarks</string>
-			<key>uniqueIdentifier</key>
-			<string>897A1E4F-6C9C-4C1B-91EA-6CC2E274C2C3</string>
-		</dict>
-		<key>DEB95F3B-7D89-42AF-9082-6D498D18C645</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>DEB95F3B-7D89-42AF-9082-6D498D18C645.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Landmarks project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Landmarks</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Landmarks</string>
-			<key>timeStartedRecording</key>
-			<real>586793037.09505796</real>
-			<key>timeStoppedRecording</key>
-			<real>586793038.05152702</real>
-			<key>title</key>
-			<string>Build Landmarks</string>
-			<key>uniqueIdentifier</key>
-			<string>DEB95F3B-7D89-42AF-9082-6D498D18C645</string>
+			<string>EC15E1A6-E546-4F0B-9B2F-3CF4EAA07427</string>
 		</dict>
 	</dict>
 </dict>

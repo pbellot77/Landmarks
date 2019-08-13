@@ -1,6 +1,7 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
 - "landmarkData"
+- "features"
 - "hikeData"
 - "load"
 - "ImageStore"
@@ -31,17 +32,21 @@ depends-top-level:
 - "StringLiteralType"
 - !private "Text"
 - !private "fatalError"
+- "features"
 - "hikeData"
 - "landmarkData"
 - "load"
 depends-member:
 - !private ["s18AdditiveArithmeticP", "init"]
+- ["Sa", "filter"]
+- ["SK", "filter"]
 - !private ["SK", "init"]
 - !private ["SB", "init"]
 - !private ["So8NSBundleC", "main"]
 - !private ["So8NSBundleC", "url"]
 - !private ["12CoreGraphics7CGFloatV", "init"]
 - ["s7CVarArgP", "Index"]
+- ["s7CVarArgP", "filter"]
 - !private ["s7CVarArgP", "index"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "main"]
@@ -49,13 +54,16 @@ depends-member:
 - !private ["s7CVarArgP", "url"]
 - !private ["s7CVarArgP", "values"]
 - ["Sl", "Index"]
+- ["Sl", "filter"]
 - !private ["Sl", "index"]
 - !private ["Sl", "init"]
 - !private ["Sl", "subscript"]
 - !private ["Sl", "values"]
 - !private ["SL", "init"]
+- ["10Foundation15ContiguousBytesP", "filter"]
 - !private ["10Foundation15ContiguousBytesP", "init"]
 - ["s28CustomDebugStringConvertibleP", "Index"]
+- ["s28CustomDebugStringConvertibleP", "filter"]
 - !private ["s28CustomDebugStringConvertibleP", "index"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "main"]
@@ -63,6 +71,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "url"]
 - !private ["s28CustomDebugStringConvertibleP", "values"]
 - ["s17CustomReflectableP", "Index"]
+- ["s17CustomReflectableP", "filter"]
 - !private ["s17CustomReflectableP", "index"]
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "subscript"]
@@ -70,6 +79,7 @@ depends-member:
 - ["s23CustomStringConvertibleP", "Index"]
 - !private ["s23CustomStringConvertibleP", "appendInterpolation"]
 - !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "filter"]
 - !private ["s23CustomStringConvertibleP", "index"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "main"]
@@ -77,10 +87,13 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "url"]
 - !private ["s23CustomStringConvertibleP", "values"]
 - !private ["10Foundation4DataV", "init"]
+- ["10Foundation12DataProtocolP", "filter"]
 - !private ["10Foundation12DataProtocolP", "init"]
 - ["Se", "Index"]
+- ["Se", "filter"]
 - !private ["Se", "index"]
 - !private ["Se", "init"]
+- ["Se", "isFeatured"]
 - !private ["Se", "subscript"]
 - !private ["Se", "values"]
 - !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
@@ -90,17 +103,22 @@ depends-member:
 - !private ["SD", "subscript"]
 - !private ["SD", "values"]
 - ["SE", "Index"]
+- ["SE", "filter"]
 - !private ["SE", "index"]
 - !private ["SE", "init"]
+- ["SE", "isFeatured"]
 - !private ["SE", "subscript"]
 - !private ["SE", "values"]
 - ["SQ", "Index"]
+- ["SQ", "filter"]
 - !private ["SQ", "index"]
 - !private ["SQ", "init"]
+- ["SQ", "isFeatured"]
 - !private ["SQ", "main"]
 - !private ["SQ", "subscript"]
 - !private ["SQ", "url"]
 - !private ["SQ", "values"]
+- ["s25ExpressibleByArrayLiteralP", "filter"]
 - ["s30ExpressibleByDictionaryLiteralP", "Index"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "index"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
@@ -109,13 +127,16 @@ depends-member:
 - !private ["s27ExpressibleByIntegerLiteralP", "init"]
 - !private ["SF", "init"]
 - ["SH", "Index"]
+- ["SH", "filter"]
 - !private ["SH", "index"]
 - !private ["SH", "init"]
+- ["SH", "isFeatured"]
 - !private ["SH", "main"]
 - !private ["SH", "subscript"]
 - !private ["SH", "url"]
 - !private ["SH", "values"]
 - ["9Landmarks4HikeV", "deinit"]
+- ["s12IdentifiableP", "isFeatured"]
 - !private ["7SwiftUI5ImageV", "init"]
 - !private ["9Landmarks10ImageStoreC", "Bundle"]
 - !private ["9Landmarks10ImageStoreC", "CGFloat"]
@@ -140,18 +161,24 @@ depends-member:
 - !private ["10Foundation11JSONDecoderC", "decode"]
 - !private ["10Foundation11JSONDecoderC", "init"]
 - ["9Landmarks8LandmarkV", "deinit"]
+- ["9Landmarks8LandmarkV", "isFeatured"]
+- ["SM", "filter"]
 - !private ["SM", "init"]
 - !private ["SM", "subscript"]
+- ["10Foundation19MutableDataProtocolP", "filter"]
 - !private ["10Foundation19MutableDataProtocolP", "init"]
 - !private ["So8NSObjectC", "main"]
 - !private ["So8NSObjectC", "url"]
 - !private ["So8NSObjectP", "main"]
 - !private ["So8NSObjectP", "url"]
 - !private ["Sj", "init"]
+- ["Sk", "filter"]
 - !private ["Sk", "init"]
+- ["Sm", "filter"]
 - !private ["Sm", "init"]
 - !private ["10Foundation20ReferenceConvertibleP", "init"]
 - ["ST", "Index"]
+- ["ST", "filter"]
 - !private ["ST", "index"]
 - !private ["ST", "init"]
 - !private ["ST", "subscript"]
@@ -168,10 +195,14 @@ depends-member:
 - !private ["SD6ValuesV", "subscript"]
 - !private ["7SwiftUI16VectorArithmeticP", "init"]
 - !private ["7SwiftUI4ViewP", "init"]
+- ["s14_ArrayProtocolP", "filter"]
 - !private ["s15_CVarArgAlignedP", "init"]
 - !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- ["s24_DestructorSafeContainerP", "filter"]
 - !private ["7SwiftUI18_FormatSpecifiableP", "init"]
+- ["s19_HasContiguousBytesP", "filter"]
 - ["s35_HasCustomAnyHashableRepresentationP", "Index"]
+- ["s35_HasCustomAnyHashableRepresentationP", "filter"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "index"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "values"]
@@ -180,47 +211,51 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "url"]
 - ["s21_ObjectiveCBridgeableP", "Index"]
+- ["s21_ObjectiveCBridgeableP", "filter"]
 - !private ["s21_ObjectiveCBridgeableP", "index"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
 - !private ["s21_ObjectiveCBridgeableP", "values"]
 depends-nominal:
 - !private "s18AdditiveArithmeticP"
-- !private "SK"
+- "Sa"
+- "SK"
 - !private "SB"
 - !private "So8NSBundleC"
 - !private "12CoreGraphics7CGFloatV"
 - "s7CVarArgP"
 - "Sl"
 - !private "SL"
-- !private "10Foundation15ContiguousBytesP"
+- "10Foundation15ContiguousBytesP"
 - "s28CustomDebugStringConvertibleP"
 - "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
 - !private "10Foundation4DataV"
-- !private "10Foundation12DataProtocolP"
+- "10Foundation12DataProtocolP"
 - "Se"
 - !private "s26DefaultStringInterpolationV"
 - "SD"
 - "SE"
 - "SQ"
+- "s25ExpressibleByArrayLiteralP"
 - "s30ExpressibleByDictionaryLiteralP"
 - !private "s25ExpressibleByFloatLiteralP"
 - !private "s27ExpressibleByIntegerLiteralP"
 - !private "SF"
 - "SH"
 - "9Landmarks4HikeV"
+- "s12IdentifiableP"
 - !private "7SwiftUI5ImageV"
 - "9Landmarks10ImageStoreC"
 - !private "10Foundation11JSONDecoderC"
 - "9Landmarks8LandmarkV"
-- !private "SM"
-- !private "10Foundation19MutableDataProtocolP"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
 - !private "So8NSObjectC"
 - !private "So8NSObjectP"
 - !private "Sj"
-- !private "Sk"
-- !private "Sm"
+- "Sk"
+- "Sm"
 - !private "10Foundation20ReferenceConvertibleP"
 - "ST"
 - !private "s13SignedNumericP"
@@ -232,9 +267,12 @@ depends-nominal:
 - !private "SD6ValuesV"
 - !private "7SwiftUI16VectorArithmeticP"
 - !private "7SwiftUI4ViewP"
+- "s14_ArrayProtocolP"
 - !private "s15_CVarArgAlignedP"
 - !private "s22_CVarArgPassedAsDoubleP"
+- "s24_DestructorSafeContainerP"
 - !private "7SwiftUI18_FormatSpecifiableP"
+- "s19_HasContiguousBytesP"
 - "s35_HasCustomAnyHashableRepresentationP"
 - !private "10Foundation27_KeyValueCodingAndObservingP"
 - !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
@@ -265,13 +303,18 @@ depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/MapKit.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/usr/include/sys/_types/_timeval32.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/usr/include/sys/_types/_timeval64.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/usr/include/sys/_types/_ucontext64.h"
@@ -1605,4 +1648,4 @@ depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "5cf1434291d0e8820042dde57e89146d"
+interface-hash: "8ac946eee329037e9d8848bdad529813"
